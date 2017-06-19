@@ -1,4 +1,4 @@
-package excercise1;
+package exercise1;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -34,15 +34,15 @@ public class ExtractMethodExercise05 {
         System.out.println("Employee with id 2 :" + employeeWithId2);
         //Find employees with name Ramesh
         List<Employee> employeesWithNameRamesh = new ArrayList<>();
-        for(Employee employee : db.values()) {
-            if(employee.getName().equalsIgnoreCase("Ramesh")){
+        for (Employee employee : db.values()) {
+            if (employee.getName().equalsIgnoreCase("Ramesh")) {
                 employeesWithNameRamesh.add(employee);
             }
         }
         System.out.println("Employees with name Ramesh: " + employeesWithNameRamesh);
         List<Employee> employeesWithNameSeema = new ArrayList<>();
-        for(Employee employee : db.values()) {
-            if(employee.getName().equalsIgnoreCase("Seema")){
+        for (Employee employee : db.values()) {
+            if (employee.getName().equalsIgnoreCase("Seema")) {
                 employeesWithNameSeema.add(employee);
             }
         }

@@ -1,4 +1,4 @@
-package excercise1;
+package exercise1;
 
 import lombok.Getter;
 import lombok.Setter;
